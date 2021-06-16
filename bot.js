@@ -41,7 +41,7 @@ client.on('message', async (message) => {
     client.settings.ensure(message.guild.id, {
         guildID: message.guild.id,
         prefix: "!"
-    }); //You can add to this enmap. Such as more settings!
+    }); 
 
     const fetchedPrefix = client.settings.get(message.guild.id, "prefix");
 
